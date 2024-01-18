@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 7.0.8/20017
 // Filename: ??L&C ??.ggsk
-// Generated 2024-01-18T14:45:43
+// Generated 2024-01-18T14:55:59
 
 function pano2vrSkin(player,base) {
 	player.addVariable('vis_copy', 2, false, { ignoreInState: 0  });
@@ -820,11 +820,11 @@ function pano2vrSkin(player,base) {
 		el.ggType='container';
 		hs ='';
 		hs+='bottom : 10px;';
-		hs+='height : 100px;';
+		hs+='height : 94px;';
 		hs+='position : absolute;';
 		hs+='right : 30px;';
 		hs+='visibility : hidden;';
-		hs+='width : 450px;';
+		hs+='width : 400px;';
 		hs+='pointer-events:none;';
 		el.setAttribute('style',hs);
 		el.style.transformOrigin='50% 50%';
@@ -1231,7 +1231,7 @@ function pano2vrSkin(player,base) {
 		hs+='overflow-y : visible;';
 		hs+='position : absolute;';
 		hs+='top : 0px;';
-		hs+='width : 246.5px;';
+		hs+='width : 219px;';
 		hs+="";
 		els.setAttribute('style',hs);
 		me.__6.ggScrollByX = function(diffX) {
@@ -1371,11 +1371,11 @@ function pano2vrSkin(player,base) {
 		}
 		elVertScrollBg = me.__6__vertScrollBg = document.createElement('div');
 		el.appendChild(elVertScrollBg);
-		elVertScrollBg.setAttribute('style', 'position: absolute; right: 0px; top: 0px; visibility: hidden; width: 2px; height: 50px; background-color: rgba(128,128,128,1); pointer-events: auto;');
+		elVertScrollBg.setAttribute('style', 'position: absolute; right: 0px; top: 0px; visibility: hidden; width: 2px; height: 47px; background-color: rgba(128,128,128,1); pointer-events: auto;');
 		elVertScrollBg.className='ggskin ggskin_scrollarea_vscrollbg';
 		elVertScrollFg = me.__6__vertScrollFg = document.createElement('div');
 		elVertScrollBg.appendChild(elVertScrollFg);
-		elVertScrollFg.setAttribute('style', 'position: absolute; left: 0px; top: 0px; visibility: hidden; width: 2px; height: 50px; background-color: rgba(192,192,192,1); pointer-events: auto;');
+		elVertScrollFg.setAttribute('style', 'position: absolute; left: 0px; top: 0px; visibility: hidden; width: 2px; height: 47px; background-color: rgba(192,192,192,1); pointer-events: auto;');
 		elVertScrollFg.className='ggskin ggskin_scrollarea_vscrollfg';
 		me.__6.ggScrollPosY = 0;
 		me.__6.ggScrollPosYPercent = 0.0;
@@ -1666,7 +1666,7 @@ function pano2vrSkin(player,base) {
 		el.ggNumCols = 0;
 		el.ggCloneOffset = 0;
 		el.ggCloneOffsetChanged = false;
-		el.ggWidth = 247.5;
+		el.ggWidth = 220;
 		el.ggHeight = 50;
 		el.ggUpdating = false;
 		el.ggFilter = [];
@@ -1852,7 +1852,7 @@ function pano2vrSkin(player,base) {
 		el.ggNumCols = 0;
 		el.ggCloneOffset = 0;
 		el.ggCloneOffsetChanged = false;
-		el.ggWidth = 247.5;
+		el.ggWidth = 220;
 		el.ggHeight = 50;
 		el.ggUpdating = false;
 		el.ggFilter = [];
@@ -2038,7 +2038,7 @@ function pano2vrSkin(player,base) {
 		el.ggNumCols = 0;
 		el.ggCloneOffset = 0;
 		el.ggCloneOffsetChanged = false;
-		el.ggWidth = 247.5;
+		el.ggWidth = 220;
 		el.ggHeight = 50;
 		el.ggUpdating = false;
 		el.ggFilter = [];
@@ -2224,7 +2224,7 @@ function pano2vrSkin(player,base) {
 		el.ggNumCols = 0;
 		el.ggCloneOffset = 0;
 		el.ggCloneOffsetChanged = false;
-		el.ggWidth = 247.5;
+		el.ggWidth = 220;
 		el.ggHeight = 50;
 		el.ggUpdating = false;
 		el.ggFilter = [];
@@ -2469,7 +2469,7 @@ function pano2vrSkin(player,base) {
 		hs+='overflow-y : visible;';
 		hs+='position : absolute;';
 		hs+='top : 0px;';
-		hs+='width : 102.5px;';
+		hs+='width : 91px;';
 		hs+="";
 		els.setAttribute('style',hs);
 		me.__3.ggScrollByX = function(diffX) {
@@ -2609,11 +2609,11 @@ function pano2vrSkin(player,base) {
 		}
 		elVertScrollBg = me.__3__vertScrollBg = document.createElement('div');
 		el.appendChild(elVertScrollBg);
-		elVertScrollBg.setAttribute('style', 'position: absolute; right: 0px; top: 0px; visibility: hidden; width: 2px; height: 50px; background-color: rgba(128,128,128,1); pointer-events: auto;');
+		elVertScrollBg.setAttribute('style', 'position: absolute; right: 0px; top: 0px; visibility: hidden; width: 2px; height: 47px; background-color: rgba(128,128,128,1); pointer-events: auto;');
 		elVertScrollBg.className='ggskin ggskin_scrollarea_vscrollbg';
 		elVertScrollFg = me.__3__vertScrollFg = document.createElement('div');
 		elVertScrollBg.appendChild(elVertScrollFg);
-		elVertScrollFg.setAttribute('style', 'position: absolute; left: 0px; top: 0px; visibility: hidden; width: 2px; height: 50px; background-color: rgba(192,192,192,1); pointer-events: auto;');
+		elVertScrollFg.setAttribute('style', 'position: absolute; left: 0px; top: 0px; visibility: hidden; width: 2px; height: 47px; background-color: rgba(192,192,192,1); pointer-events: auto;');
 		elVertScrollFg.className='ggskin ggskin_scrollarea_vscrollfg';
 		me.__3.ggScrollPosY = 0;
 		me.__3.ggScrollPosYPercent = 0.0;
@@ -2905,7 +2905,7 @@ function pano2vrSkin(player,base) {
 		el.ggNumCols = 0;
 		el.ggCloneOffset = 0;
 		el.ggCloneOffsetChanged = false;
-		el.ggWidth = 103.5;
+		el.ggWidth = 92;
 		el.ggHeight = 50;
 		el.ggUpdating = false;
 		el.ggFilter = [];
@@ -3172,7 +3172,7 @@ function pano2vrSkin(player,base) {
 		hs ='';
 		hs+='height : 10px;';
 		hs+='position : absolute;';
-		hs+='right : -10px;';
+		hs+='right : 0px;';
 		hs+='top : calc(50% - ((10px + 0px) / 2) + 0px);';
 		hs+='visibility : inherit;';
 		hs+='width : 10px;';
@@ -3193,11 +3193,13 @@ function pano2vrSkin(player,base) {
 		}
 		me._up.ggUpdatePosition=function (useTransition) {
 		}
+		me.__10.appendChild(me._up);
+		me.__2.appendChild(me.__10);
 		el=me.__20=document.createElement('div');
 		el.ggId="\uc120-2";
 		el.ggDy=0;
 		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1,def:'' };
-		el.ggVisible=true;
+		el.ggVisible=false;
 		el.className="ggskin ggskin_rectangle ";
 		el.ggType='rectangle';
 		hs ='';
@@ -3209,9 +3211,9 @@ function pano2vrSkin(player,base) {
 		hs+='cursor : default;';
 		hs+='height : 50px;';
 		hs+='position : absolute;';
-		hs+='right : -10px;';
+		hs+='right : -1px;';
 		hs+='top : calc(50% - ((50px + 0px) / 2) + 0px);';
-		hs+='visibility : inherit;';
+		hs+='visibility : hidden;';
 		hs+='width : 1px;';
 		hs+='pointer-events:auto;';
 		el.setAttribute('style',hs);
@@ -3228,11 +3230,34 @@ function pano2vrSkin(player,base) {
 			}
 			return player.getCurrentNode();
 		}
+		me.__20.logicBlock_visible = function() {
+			var newLogicStateVisible;
+			if (
+				((player.getVariableValue('vis_date') == false))
+			)
+			{
+				newLogicStateVisible = 0;
+			}
+			else {
+				newLogicStateVisible = -1;
+			}
+			if (me.__20.ggCurrentLogicStateVisible != newLogicStateVisible) {
+				me.__20.ggCurrentLogicStateVisible = newLogicStateVisible;
+				me.__20.style.transition='';
+				if (me.__20.ggCurrentLogicStateVisible == 0) {
+					me.__20.style.visibility=(Number(me.__20.style.opacity)>0||!me.__20.style.opacity)?'inherit':'hidden';
+					me.__20.ggVisible=true;
+				}
+				else {
+					me.__20.style.visibility="hidden";
+					me.__20.ggVisible=false;
+				}
+			}
+		}
+		me.__20.logicBlock_visible();
 		me.__20.ggUpdatePosition=function (useTransition) {
 		}
-		me._up.appendChild(me.__20);
-		me.__10.appendChild(me._up);
-		me.__2.appendChild(me.__10);
+		me.__2.appendChild(me.__20);
 		me._rectangle_1.appendChild(me.__2);
 		el=me.__0=document.createElement('div');
 		els=me.__0__text=document.createElement('div');
@@ -5977,6 +6002,7 @@ function pano2vrSkin(player,base) {
 		me.__18_.logicBlock_visible();
 		me.__3.logicBlock_visible();
 		me.__10.logicBlock_visible();
+		me.__20.logicBlock_visible();
 		me._infom.logicBlock_visible();
 		me.__m1.logicBlock_visible();
 		me.__m1.logicBlock_text();
@@ -6010,6 +6036,7 @@ function pano2vrSkin(player,base) {
 			me.__3.logicBlock_visible();
 			me._cloner_1.ggUpdateConditionNodeChange();
 			me.__10.logicBlock_visible();
+			me.__20.logicBlock_visible();
 			me.__m1.logicBlock_visible();
 			me.__m1.logicBlock_text();
 			me._up2m.logicBlock_visible();
@@ -6039,6 +6066,7 @@ function pano2vrSkin(player,base) {
 			me.__3.ggUpdatePosition();
 			me.__3.logicBlock_visible();
 			me.__10.logicBlock_visible();
+			me.__20.logicBlock_visible();
 			me.__m1.logicBlock_visible();
 			me.__m1.logicBlock_text();
 			me._up2m.logicBlock_visible();
@@ -6068,6 +6096,7 @@ function pano2vrSkin(player,base) {
 		player.addListener('varchanged_vis_date', function(event) {
 			me.__3.logicBlock_visible();
 			me.__10.logicBlock_visible();
+			me.__20.logicBlock_visible();
 			me._m2.logicBlock_visible();
 			me.__1m.logicBlock_visible();
 			me.__2m.logicBlock_visible();
@@ -6810,7 +6839,7 @@ function pano2vrSkin(player,base) {
 		hs+='position : absolute;';
 		hs+='top : 0px;';
 		hs+='visibility : inherit;';
-		hs+='width : 100%;';
+		hs+='width : 95%;';
 		hs+='pointer-events:auto;';
 		el.setAttribute('style',hs);
 		el.style.transformOrigin='50% 50%';
@@ -6919,7 +6948,7 @@ function pano2vrSkin(player,base) {
 		hs+='position : absolute;';
 		hs+='top : 0px;';
 		hs+='visibility : inherit;';
-		hs+='width : 100%;';
+		hs+='width : 95%;';
 		hs+='pointer-events:auto;';
 		el.setAttribute('style',hs);
 		el.style.transformOrigin='50% 50%';
@@ -7028,7 +7057,7 @@ function pano2vrSkin(player,base) {
 		hs+='position : absolute;';
 		hs+='top : 0px;';
 		hs+='visibility : inherit;';
-		hs+='width : 100%;';
+		hs+='width : 95%;';
 		hs+='pointer-events:auto;';
 		el.setAttribute('style',hs);
 		el.style.transformOrigin='50% 50%';
@@ -7137,7 +7166,7 @@ function pano2vrSkin(player,base) {
 		hs+='position : absolute;';
 		hs+='top : 0px;';
 		hs+='visibility : inherit;';
-		hs+='width : 100%;';
+		hs+='width : 95%;';
 		hs+='pointer-events:auto;';
 		el.setAttribute('style',hs);
 		el.style.transformOrigin='50% 50%';
