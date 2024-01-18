@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 7.0.8/20017
 // Filename: ??L&C ??.ggsk
-// Generated 2024-01-18T14:55:59
+// Generated 2024-01-18T15:19:04
 
 function pano2vrSkin(player,base) {
 	player.addVariable('vis_copy', 2, false, { ignoreInState: 0  });
@@ -3443,7 +3443,7 @@ function pano2vrSkin(player,base) {
 		el.ggType='container';
 		hs ='';
 		hs+='bottom : 0px;';
-		hs+='height : 130px;';
+		hs+='height : 110px;';
 		hs+='position : absolute;';
 		hs+='right : 0px;';
 		hs+='visibility : hidden;';
@@ -3520,7 +3520,6 @@ function pano2vrSkin(player,base) {
 		}
 		el=me.__m=document.createElement('div');
 		el.ggId="\uace0\uac1d\uc815\ubcf4 \ucee8\ud14c\uc774\ub108-m";
-		el.ggDy=0;
 		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1,def:'' };
 		el.ggVisible=true;
 		el.className="ggskin ggskin_container ";
@@ -3529,7 +3528,7 @@ function pano2vrSkin(player,base) {
 		hs+='height : 50px;';
 		hs+='position : absolute;';
 		hs+='right : 15px;';
-		hs+='top : calc(50% - ((50px + 0px) / 2) + 0px);';
+		hs+='top : 20px;';
 		hs+='visibility : inherit;';
 		hs+='width : 60%;';
 		hs+='pointer-events:none;';
@@ -5025,7 +5024,6 @@ function pano2vrSkin(player,base) {
 		me._rectangle_1m.appendChild(me.__m);
 		el=me._m1=document.createElement('div');
 		el.ggId="\ub0a0\uc9dc\ucee8\ud14c\uc774\ub108-m";
-		el.ggDy=0;
 		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1,def:'' };
 		el.ggVisible=true;
 		el.className="ggskin ggskin_container ";
@@ -5034,7 +5032,7 @@ function pano2vrSkin(player,base) {
 		hs+='height : 50px;';
 		hs+='left : 13%;';
 		hs+='position : absolute;';
-		hs+='top : calc(50% - ((50px + 0px) / 2) + 0px);';
+		hs+='top : 20px;';
 		hs+='visibility : inherit;';
 		hs+='width : 50px;';
 		hs+='pointer-events:none;';
@@ -5886,7 +5884,6 @@ function pano2vrSkin(player,base) {
 		el.className='ggskin ggskin_textdiv';
 		el.ggTextDiv=els;
 		el.ggId="\uc6d4-m";
-		el.ggDy=0;
 		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1,def:'' };
 		el.ggVisible=true;
 		el.className="ggskin ggskin_text ";
@@ -5898,7 +5895,7 @@ function pano2vrSkin(player,base) {
 		hs+='height : 50px;';
 		hs+='left : 15px;';
 		hs+='position : absolute;';
-		hs+='top : calc(50% - ((50px + 0px) / 2) + 0px);';
+		hs+='top : 20px;';
 		hs+='visibility : inherit;';
 		hs+='width : 10%;';
 		hs+='pointer-events:auto;';
